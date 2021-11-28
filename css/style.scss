@@ -1,0 +1,104 @@
+$primary_color: #2431a1;
+$grey: #313131;
+
+@font-face {
+  font-family: "punjabi";
+  src: url("../fonts/anmollipi-webfont.woff2") format("woff2"),
+    url("../fonts/anmollipi-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $primary_color;
+  font-weight: 400;
+}
+
+.punjabi {
+  font-family: punjabi;
+  font-size: 18px;
+}
+
+.image {
+  background-color: #f5f6e4;
+  img {
+    margin: auto;
+    display: block;
+  }
+}
+nav {
+  .navbar-brand {
+    img {
+      max-width: 112px;
+    }
+  }
+  form {
+   .links {
+    a {
+        color: #fff;
+        height: 30px;
+        display: inline-block;
+        width: 30px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 30px;
+        background: $primary-color;
+        margin-right: 8px;
+        margin-top: 4px;
+        transition: all 0.5 ease-in-out;
+        &:hover {
+        transition: all 0.5 ease-in-out;
+            color: #ffffff;
+            background: darken($primary-color, 10);
+        }
+      }
+   }
+  }
+}
+.headline {
+  h2 {
+    small {
+      font-size: 18px;
+    }
+  }
+  p {
+    max-width: 800px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+  }
+}
+.formm {
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+}
+.links {
+    a {
+        color: #fff;
+        height: 30px;
+        display: inline-block;
+        width: 30px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 30px;
+        background: $primary-color;
+        margin-right: 8px;
+        margin-top: 4px;
+        transition: all 0.5 ease-in-out;
+        &:hover {
+        transition: all 0.5 ease-in-out;
+            color: #ffffff;
+            background: darken($primary-color, 10);
+        }
+      }
+}
+footer {
+    color: #ffffff;
+    background: $grey;
+}

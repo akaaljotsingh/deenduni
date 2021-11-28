@@ -1,0 +1,101 @@
+@font-face {
+  font-family: "punjabi";
+  src: url("../fonts/anmollipi-webfont.woff2") format("woff2"), url("../fonts/anmollipi-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #2431a1;
+  font-weight: 400;
+}
+
+.punjabi {
+  font-family: punjabi;
+  font-size: 18px;
+}
+
+.image {
+  background-color: #f5f6e4;
+}
+
+.image img {
+  margin: auto;
+  display: block;
+}
+
+nav .navbar-brand img {
+  max-width: 112px;
+}
+
+nav form .links a {
+  color: #fff;
+  height: 30px;
+  display: inline-block;
+  width: 30px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  background: #2431a1;
+  margin-right: 8px;
+  margin-top: 4px;
+  -webkit-transition: all 0.5 ease-in-out;
+  transition: all 0.5 ease-in-out;
+}
+
+nav form .links a:hover {
+  -webkit-transition: all 0.5 ease-in-out;
+  transition: all 0.5 ease-in-out;
+  color: #ffffff;
+  background: #1b2477;
+}
+
+.headline h2 small {
+  font-size: 18px;
+}
+
+.headline p {
+  max-width: 800px;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.formm {
+  max-width: 600px;
+  text-align: center;
+  margin: auto;
+}
+
+.links a {
+  color: #fff;
+  height: 30px;
+  display: inline-block;
+  width: 30px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  background: #2431a1;
+  margin-right: 8px;
+  margin-top: 4px;
+  -webkit-transition: all 0.5 ease-in-out;
+  transition: all 0.5 ease-in-out;
+}
+
+.links a:hover {
+  -webkit-transition: all 0.5 ease-in-out;
+  transition: all 0.5 ease-in-out;
+  color: #ffffff;
+  background: #1b2477;
+}
+
+footer {
+  color: #ffffff;
+  background: #313131;
+}
+/*# sourceMappingURL=style.css.map */
