@@ -98,4 +98,22 @@ footer {
   color: #ffffff;
   background: #313131;
 }
+
+@media screen and (max-width: 991px) {
+  nav .navbar-brand img {
+    max-width: 82px;
+  }
+  .links a {
+    margin-right: 0;
+  }
+  .navbar-collapse .links {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .links.mobile {
+    display: none;
+  }
+}
 /*# sourceMappingURL=style.css.map */
