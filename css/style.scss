@@ -26,13 +26,22 @@ h6 {
 
 .image {
   background-color: #f5f6e4;
+  // padding-top: 105px; 
   img {
     margin: auto;
     display: block;
   }
 }
-nav {
+nav.navbar {
+  padding-top: 0 !important;
+  // position: fixed !important;
+  width: 100%;
+  z-index: 999999999;
+  backdrop-filter: blur(30px);
+  box-shadow: 0 0 60px 0px #ccc;
+  background: transparent !important;
   .navbar-brand {
+    padding-bottom: 0 !important;
     img {
       max-width: 112px;
     }
@@ -98,9 +107,44 @@ nav {
         }
       }
 }
+
+.voluntear-section{
+  padding: 40px!important;
+  background-color: rgba(23,97,253,0.1);
+  color: #ffffff!important;
+  text-align: center;
+  .volunteer-btn{
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #6394f7;
+    color: white;
+    border: 1px solid;
+    text-decoration: none;
+    &:hover{
+      color: white;
+    }
+  }
+  
+}
+
+.fa-location-arrow{
+  font-size: 20px;
+}
+.mr-80{
+  margin-right: 80px;
+}
+.sub-footer{
+    color: #75b1e3;
+    border-top: 2px solid #f1f1f1;
+    padding-top: 2rem!important;
+  padding-bottom: 0rem!important;
+}
+.d-inline-flex{
+  display: inline-flex;
+}
 footer {
-    color: #ffffff;
-    background: $grey;
+  color: #ffffff;
+    background: #75b1e3;
 }
 
 @media screen and (max-width:991px) {
